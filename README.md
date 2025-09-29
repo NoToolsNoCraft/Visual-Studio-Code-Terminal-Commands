@@ -31,3 +31,11 @@ Remove-Item -Path node_modules,package-lock.json -Recurse -Force
 -Recurse: Deletes the node_modules folder and its contents.
 
 -Force: Suppresses confirmation prompts.
+
+
+## Jest
+
+### Clear Jest Cache
+```bash
+npx jest --clearCache
+```
