@@ -32,6 +32,11 @@ Remove-Item -Path node_modules,package-lock.json -Recurse -Force
 
 -Force: Suppresses confirmation prompts.
 
+Instantly install dependencied after the node & package.lock has been removed
+```bash
+Remove-Item -Path node_modules,package-lock.json -Recurse -Force
+npm install
+```
 
 ## Jest
 
