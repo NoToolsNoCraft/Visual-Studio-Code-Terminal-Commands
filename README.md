@@ -20,8 +20,20 @@ npm run server
 ```
 ![Kill Port example](./killport.png)
 
+## npm install
 
-## Remove/delete node modules and package-lock.json after a wrong installation
+### npm install vulnerabilities
+When npm install shows vulnerabilities we should run an audit fix
+```bash
+npm audit fix --force
+```
+After that check if there are still some vulnerabilities:
+```bash
+npm audit
+```
+
+
+### Remove/delete node modules and package-lock.json after a wrong installation
 Run this command
 ```bash
 Remove-Item -Path node_modules,package-lock.json -Recurse -Force
