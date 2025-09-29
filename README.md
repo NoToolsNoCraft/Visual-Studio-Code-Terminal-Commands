@@ -18,3 +18,4 @@ After this the server port is closed and can be restarted by command like:
 ```bash
 npm run server
 ```
+![Kill Port example](./killport.png)
