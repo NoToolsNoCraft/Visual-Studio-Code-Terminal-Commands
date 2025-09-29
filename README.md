@@ -27,5 +27,7 @@ Run this command
 Remove-Item -Path node_modules,package-lock.json -Recurse -Force
 ```
 -Path node_modules,package-lock.json: Specifies both items.
+
 -Recurse: Deletes the node_modules folder and its contents.
+
 -Force: Suppresses confirmation prompts.
