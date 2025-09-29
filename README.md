@@ -19,3 +19,13 @@ After this the server port is closed and can be restarted by command like:
 npm run server
 ```
 ![Kill Port example](./killport.png)
+
+
+## Remove/delete node modules and package-lock.json after a wrong installation
+Run this command
+```bash
+Remove-Item -Path node_modules,package-lock.json -Recurse -Force
+```
+-Path node_modules,package-lock.json: Specifies both items.
+-Recurse: Deletes the node_modules folder and its contents.
+-Force: Suppresses confirmation prompts.
